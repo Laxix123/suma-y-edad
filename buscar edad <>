@@ -1,0 +1,22 @@
+Algoritmo sin_titulo
+	dimension edad[5]
+	definir may , men como entero 
+	may=0
+	men=99
+	Para j<-0 Hasta 4 Con Paso 1 Hacer
+		Repetir
+			escribir " ingrese el numero " j+1
+			leer edad[j]
+		Hasta Que edad[j] >=1 y edad[j] <=18
+	Fin Para
+	Para j<-0 Hasta 4 Con Paso 1 Hacer
+		si may < edad[j] entonces 
+			may=edad[j] +1
+        finsi 
+		si edad[j] < men entonces 
+			men=edad[j]
+		FinSi
+	Fin Para
+	escribir " la edad mayor es " may ;
+	escribir " la edad menor es " men ;
+FinAlgoritmo
