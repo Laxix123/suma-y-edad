@@ -1,0 +1,17 @@
+Algoritmo sin_titulo
+	dimension notas[5]
+	definir suma como real 
+	Para x<-0 Hasta 4 Con Paso 1 Hacer
+		Repetir
+		 imprimir " =================== "
+		 escribir " ingrese los numeros " x+1
+		 imprimir " =================== " 
+		 leer notas[x]
+		hasta que notas[x] >= 1 y notas[x] <= 7
+    Fin Para
+	suma = notas[0] + notas[1] + notas[2] + notas[3] + notas[4]/5 ;
+	escribir " la suma de los datos son " suma ;
+   
+ 
+ 
+FinAlgoritmo
